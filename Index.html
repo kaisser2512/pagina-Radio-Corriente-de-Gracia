@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,body {
+            height:100%;
+        }
+        /* Div que engloba el contenido de la página menos el footer */
+        #wrapper {
+            min-height:100%;
+        }
+        header {
+            display:block;
+            background:#ccc;
+            padding:10px 0px;
+        }
+        section {
+            overflow: auto;
+            /* Definimos el padding inferior:
+               50px del pie de pagina mas 10px de separacion
+            */
+            padding-bottom: 60px;
+            /* Definimos un padding superior */
+            padding-top:30px;
+        }
+        footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: -50px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: #286af0;
+            text-align: center;
+            color: #fff;
+        }
+ 
+        /* Esta clase define la anchura del contenido y la posicion centrada 
+           El contenido queda centrado y limitado, pero la cabecera y el pie
+           llegan hasta los limites del navegador.
+        */
+        .define {
+            width:960px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+ 
+<body bgcolor="#CB54C5"> 
+
+    <div id="wrapper">
+        <header> 
+            <div class='define'>
+                <h1>Radio Catolica Corriente de Gracia</h1>
+            </div>
+        </header>
+ 
+        <section>
+            <div class='define'>
+
+                 <center><img src="logo rediseñado ori.jpg"></center>
+
+                 <p><h1>Vision</h1>
+                 Llevar el mensaje evangelizador a los habitantes de los lugares más lejanos de los paises internacionales y nacionales,
+                 y hasta donde nuestra señal llegue, por gracia de Dios. </p>
+ 
+                <br>
+
+              <p> <h1>Mision</h1>
+                 como medio digital de comunicación también cumple con su misión de informar,
+                 educar y recrear a su radioaudiencia, por lo cual tenemos varidedad de musica y temas por parte laicos comprometidos.
+                 Ser una emisora que compartiendo la Buena Nueva provoque conversiones mediante un enriquecimiento espiritual que
+                 acerque más al ser humano hacía Dios Padre, a través de su Hijo Jesucristo que es Camino, Verdad y Vida.</p>
+            </div>
+        </section>
+    </div>
+<img src="Mi Web/logo rediseñado ori.jpg"/>
+ 
+    <footer>
+        <div class='define'>
+            <p>By Radio Catolica Corriente de Gracia</p>
+        </div>
+    </footer>
+</body>
+</html>
